@@ -1,0 +1,49 @@
+{
+  "name": "tablevirtualization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env TS_NODE_PROJECT=\"tsconfig.json\" webpack-dev-server --config webpack.config.ts"
+  },
+  "author": "k.bobrov (tzbg)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "virtabulized": "0.1.9"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "3.2.1",
+    "@types/jest": "24.0.15",
+    "@types/node": "12.6.1",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/webpack": "4.32.1",
+    "cross-env": "5.2.0",
+    "css-loader": "3.2.0",
+    "gh-pages": "2.0.1",
+    "html-webpack-plugin": "3.0.7",
+    "jest": "24.8.0",
+    "prettier": "1.18.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "rimraf": "2.6.3",
+    "rollup": "1.19.4",
+    "rollup-plugin-commonjs": "10.0.2",
+    "rollup-plugin-postcss": "2.0.3",
+    "rollup-plugin-typescript2": "0.22.1",
+    "style-loader": "1.0.0",
+    "ts-jest": "24.0.2",
+    "ts-loader": "6.0.4",
+    "ts-node": "8.3.0",
+    "tsconfig-paths": "3.8.0",
+    "tslint": "5.18.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.5.2",
+    "webpack": "4.39.2",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.8.0"
+  }
+}
